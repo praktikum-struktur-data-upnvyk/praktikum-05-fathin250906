@@ -75,7 +75,7 @@ bool push(Stack& s, int nilai) {
     newnode->data = nilai;
     newnode->next = s.top;
     s.top = newnode;
-    return false;
+    return true;
 }
 
 // SOAL 2
